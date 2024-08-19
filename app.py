@@ -22,7 +22,7 @@ def predict():
     humidity = request.form.get ('humidity')
     temperature = request.form.get('temperature')
     step_count = request.form.get('step_count')
-    stress_level = request.form.get('stress_level')
+    #stress_level = request.form.get('stress_level')
     respiratery_rate = request.form.get('respiratery_rate')
     heart_rate = request.form.get('heart_rate')
     input_query = np.array([[humidity, temperature, step_count, respiratery_rate, heart_rate]])
