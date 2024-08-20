@@ -10,6 +10,8 @@ import joblib
 
 #model = pickle.load(open('svm_model.pkl','rb'))
 model = joblib.load('svm_model.pkl')
+#model = joblib.load('RandomForest_model.pkl')
+
 app = Flask(__name__)
 
 @app.route('/')
